@@ -1,0 +1,25 @@
+{
+  "SplineUnits":
+  [
+    {
+      "WaveType": "WAVE_SIN",
+      "UnitRotator": [15,0,20],
+      "InheritRotatorPitch": false,
+      "InheritRotatorYaw": true,
+      "InheritRotatorInRoll": true,
+      "Scalar": 20000.0,
+      "Density": 20,
+      "CurveUnitRotator": [0,90,0],
+      "CurveScalar": 2000,
+      "WaveFreq": 2,
+      "Msec": 10,
+      "loop": 10,
+      "SpawnableActors": [
+        {
+          "ActorsReference": "Blueprint'/Game/BluePrint/B_DebugPlanes.B_DebugPlanes'",
+          "PlacementType": "EACH_POINT"
+        }
+      ]
+    }
+  ]
+}
